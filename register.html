@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <style>
+        form {
+            border: 4px solid saddlebrown;
+            padding-left: 8rem;
+            margin-left: 20rem;
+            margin-right: 30rem;
+            font-size: 18px;
+            padding-bottom: 17px;
+            padding-top: 10px;
+            background-color: lavender;
+        }
+        label {
+            color: gray;
+        }
+        body{
+            background-color: lavenderblush
+            ;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Create an Account</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" required placeholder="Enter full name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required placeholder="Enter your email"><br><br>
+
+        <label>Username:</label><br>
+        <input type="text" name="username" required placeholder="Enter you username"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password" required placeholder="Enter the password"><br><br>
+
+        <label>Confirm Password:</label><br>
+        <input type="password" name="confirm_password" required placeholder="Comfirm the password"><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" placeholder="Enter you phone number"><br><br>
+
+        <label>
+            <input type="checkbox" required>
+            I agree to the Terms & Conditions
+        </label><br><br>
+
+        <input type="submit" value="Create Account">
+    </form>
+
+</body>
+</html>
